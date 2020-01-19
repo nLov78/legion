@@ -284,7 +284,7 @@
     <string name="lockscreen_hide_shortcuts_summary">Скрывать левые ярлыки на защищенных экранов блокировки</string>
     <string name="buttonsettings_summary">Выполнить пользовательскую кнопку действия</string>
 	
-	<string name="statusbar_summary">Настройки Статусбара </string>
+    <string name="statusbar_summary">Настройки Статусбара </string>
     <string name="lockscreen_summary">Различные варианты экрана блокировки</string>
     <string name="navbar_summary">Различные варианты для navbar</string>
     <string name="powermenu_summary">Настраивать элементы, которые будут отображаться в меню питания </string>
