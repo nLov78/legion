@@ -54,12 +54,12 @@
     <string name="qs_tile_animation_interpolator_overshootInterpolator">Перерегулирование</string>
     <string name="qs_tile_animation_interpolator_anticipateInterpolator">Предвидеть</string>
     <string name="qs_tile_animation_interpolator_anticipateOvershootInterpolator">Ожидаем выброс</string>
-    <string name="qs_set_animation_style">%1$с</string>
-    <string name="qs_set_animation_duration">%1$с</string>
-    <string name="qs_set_animation_interpolator">%1$с</string>
+    <string name="qs_set_animation_style">%1$s</string>
+    <string name="qs_set_animation_duration">%1$s</string>
+    <string name="qs_set_animation_interpolator">%1$s</string>
 	
     <!-- Statusbar Tuner -->
-    <string name="statusbar_items_title">Иконки статусной </string>
+    <string name="statusbar_items_title">Иконки в статус баре</string>
     <string name="statusbar_items_summary">Переключить видимость значков в строке состояния</string>
   
     <!-- Navbar options -->
@@ -67,7 +67,7 @@
     <string name="navbar_invert_layout_summary">Использовать перевернутый макет для кнопок навигации </string>
   
     <!-- Three-fingers-swipe to screenshot -->
-    <string name="three_finger_gesture">Проведите скриншот</string>
+    <string name="three_finger_gesture">Проведите 3-мя пальцами для скриншота</string>
     <string name="three_finger_gesture_summary">Свайп вниз тремя пальцами, чтобы снять скриншот</string>
   
     <!-- Global Actions -->
@@ -78,13 +78,13 @@
     <string name="global_actions_airplane">Самолет</string>
     <string name="global_actions_settings">Настройки</string>
     <string name="global_actions_lockdown">Блокировка</string>
-    <string name="global_actions_soundpanel">Звуковая Панель</string>
+    <string name="global_actions_soundpanel">Звуковая панель</string>
     <string name="global_actions_users">Пользователи</string>
     <string name="global_actions_screenshot">Скриншот</string>
     <string name="global_actions_flashlight">Фонарик</string>
     <string name="global_actions_emergency">Чрезвычайных</string>
-    <string name="global_actions_advanced_reboot_title">Включить расширенный перезагрузить</string>
-    <string name="global_actions_advanced_reboot_summary">При перезапуске также Показать параметры для восстановления и загрузчика</string>
+    <string name="global_actions_advanced_reboot_title">Расширенное меню перезагрузки</string>
+    <string name="global_actions_advanced_reboot_summary">Показывать в меню питания кнопки перехода в режим восстановления или загрузчика</string>
 	
     <!-- On-The-Go -->
     <string name="onthego_title">По Ходу Эксплуатации</string>
@@ -96,8 +96,8 @@
     <string name="volume_steps_fragment_title">Шагов громкости</string>
     <string name="volume_steps_summary">Настройка шага громкости </string>
     <string name="volume_steps_alarm_title">Шаги громкости: сигнализация</string>
-    <string name="volume_steps_dtmf_title">Шаги громкости: ДТМФ</string>
-    <string name="volume_steps_music_title">Шаги громкости: СМИ</string>
+    <string name="volume_steps_dtmf_title">Шаги громкости: DTMF</string>
+    <string name="volume_steps_music_title">Шаги громкости: Media</string>
     <string name="volume_steps_notification_title">Шаги громкости: уведомление</string>
     <string name="volume_steps_ring_title">Шаги громкости: звонка</string>
     <string name="volume_steps_system_title">Шаги громкости: системы</string>
@@ -186,50 +186,9 @@
     <string name="clock_date_left">Слева от времени</string>
     <string name="clock_date_position">Дата установки</string>
   
-    <!-- Lock Clock Fonts -->
-    <string name="lock_clock_font_title">Часы параметры шрифта </string>
-    <string name="lock_clock_font_summary">Изменить шрифт по умолчанию на экране блокировки виджет часов</string>
-    <string name="lock_clock_font_dialog_title">Выберите шрифт часы блокировка </string>
-    <string name="lock_clock_font_stock">Normal (по умолчанию)</string>
-    <string name="lock_clock_font_bold">Смелый</string>
-    <string name="lock_clock_font_italic">Курсив</string>
-    <string name="lock_clock_font_bold_italic">Полужирный Курсив</string>
-    <string name="lock_clock_font_light_italic">Светлый Курсив</string>
-    <string name="lock_clock_font_thin_italic">Тонкий Курсив</string>
-    <string name="lock_clock_font_light">Блик</string>
-    <string name="lock_clock_font_thin">Тонкий</string>
-    <string name="lock_clock_font_condensed_normal">Сгущенное</string>
-    <string name="lock_clock_font_condensed_italic">Конденсированных Курсив</string>
-    <string name="lock_clock_font_condensed_bold">Сгущенное Жирный</string>
-    <string name="lock_clock_font_condensed_bold_italic">Сгущенное Жирный Курсив</string>
-    <string name="lock_clock_font_condensed_light">Сконденсированный Свет</string>
-    <string name="lock_clock_font_condensed_light_italic">Сгущенное Светлый Курсив</string>
-    <string name="lock_clock_font_medium_normal">Норм.</string>
-    <string name="lock_clock_font_medium_italic">Средний Курсив</string>
-    <string name="lock_clock_font_black">Черный</string>
-    <string name="lock_clock_font_black_italic">Черный Курсив</string>
-    <string name="lock_clock_font_dancingscript">DancingScript</string>
-    <string name="lock_clock_font_dancingscript_bold">DancingScript Смелый</string>
-    <string name="lock_clock_font_comingsoon">Издание Comingsoon</string>
-    <string name="lock_clock_font_notoserif">NotoSerif Нормально</string>
-    <string name="lock_clock_font_notoserif_italic">NotoSerif Курсив</string>
-    <string name="lock_clock_font_notoserif_bold">NotoSerif Смелый</string>
-    <string name="lock_clock_font_notoserif_bold_italic">NotoSerif Полужирный Курсив</string>
-    <string name="lock_clock_font_gobold">GoBold Свет</string>
-    <string name="lock_clock_font_roadrage">Дорога Ярости</string>
-    <string name="lock_clock_font_snowstorm">Пургу</string>
-    <string name="lock_clock_font_googlesans">Google Без</string>
-    <string name="lock_clock_font_neoneon">Neoneon</string>
-    <string name="lock_clock_font_themeable">Темизировать (или VCR меню моно)</string>
-    <string name="lock_clock_font_samsung">Shamshung</string>
-    <string name="lock_clock_font_mexcellent">Мексиколепным</string>
-    <string name="lock_clock_font_burnstown">Burnstown</string>
-    <string name="lock_clock_font_dumbledor">Dumbledor</string>
-    <string name="lock_clock_font_phantombold">PhantomBold</string>
-  
     <!-- 4G icon -->
-    <string name="show_lte_fourgee_title">Значок 4Г </string>
-    <string name="show_lte_fourgee_summary">Отображение значка 4G в сигнал, вместо значка ЛТЕ</string>
+    <string name="show_lte_fourgee_title">Значок 4G</string>
+    <string name="show_lte_fourgee_summary">Отображение значка 4G в сигнал, вместо значка LTE</string>
   
     <!-- Lockscreen battery info indicator -->
     <string name="lockscreen_battery_info_title">Экран зарядки инфо</string>
@@ -270,17 +229,17 @@
     <!-- Quick Settings -->
     <string name="lockscreen_qs_disabled_title">Отключить быстрые настройки при заблокированном</string>
     <string name="lockscreen_qs_disabled_summary">Отключить расширение быстрые настройки на защищенных экранов блокировки</string>
-  
+
     <!-- Quick pull down-->
     <string name="quick_pulldown_title">Быстрая пулдаун</string>
-    <string name="quick_pulldown_summary">%1$ов краю строки состояния тянет вниз Быстрые настройки</string>
+    <string name="quick_pulldown_summary">%1$s с края статусбара выталкивает быстрые настройки </string>
     <string name="quick_pulldown_summary_always">Всегда Быстрые настройки в строке состояния пулдаун</string>
     <string name="quick_pulldown_off">Отк.</string>
     <string name="quick_pulldown_left">Влево</string>
     <string name="quick_pulldown_right">Вправо</string>
     <string name="quick_pulldown_always">Всегда</string>
 	
-    <string name="lockscreen_hide_shortcuts_title">Скрыть Нижнюю Ярлыки</string>
+    <string name="lockscreen_hide_shortcuts_title">Скрыть нижние ярлыки</string>
     <string name="lockscreen_hide_shortcuts_summary">Скрывать левые ярлыки на защищенных экранов блокировки</string>
     <string name="buttonsettings_summary">Выполнить пользовательскую кнопку действия</string>
 	
